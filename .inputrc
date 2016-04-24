@@ -1,0 +1,14 @@
+##pour recharger ce ficher taper
+##bind -f ~/.inputrc
+
+
+## taper les premières lettres de la comande recherchée puis haut et bas pour naviguer dans l'historique
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+
+
+##shows all ambiguous commands or folders immediately on pressing TAB
+set show-all-if-ambiguous on
+##ignores the case for autocompletion.
+set completion-ignore-case on
