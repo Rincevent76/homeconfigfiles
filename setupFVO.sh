@@ -11,3 +11,20 @@ then
 	source ~/.bashrc
 fi
 
+
+#https://github.com/Rincevent76/homeconfigfiles.git
+#install git
+#apt-get -y install git
+#
+#git init   #git init MyGitFolder
+#
+#git remote add origin https://github.com/Rincevent76/homeconfigfiles.git
+#
+#echo "*" > ~/.gitignore
+#
+#git pull origin master
+#
+
+
+
+
