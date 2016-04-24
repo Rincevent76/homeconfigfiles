@@ -4,11 +4,13 @@ alias fhere="find . -name "
 
 alias wget="wget -c"
 
-alias bedit='sudo nano /home/fran/.bashrc'
+alias bedit='sudo nano /home/$USER/.bashrc'
+alias bedit='sudo nano /home/$USER/.bashrc'
+
 alias breload='source ~/.bashrc'
 
-alias baedit='sudo nano /home/fran/.bash_aliases_rc'
-alias bfedit='sudo nano /home/fran/.bash_functions_rc'
+alias baedit='sudo nano /home/$USER/.bash_aliases_rc'
+alias bfedit='sudo nano /home/$USER/.bash_functions_rc'
 
 alias apti='sudo apt-get install'
 alias apts='apt-cache search'
@@ -18,9 +20,8 @@ alias suna='sudo nano'
 alias ga='git add -f'
 alias gs='git status'
 alias gf='git ls-files'
-alias gc='git commit'
+alias gc='git commit -a'
 alias gp='git push origin master'
-
 
 
 
