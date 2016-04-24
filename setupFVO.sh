@@ -8,7 +8,7 @@ then
 	echo "## Configuration files" >> /etc/nanorc
 	echo 'include "/usr/share/nano/conf.nanorc"' >> /etc/nanorc
 	#reload bash
-	source ~/.bashrc
+	exec bash
 fi
 
 
